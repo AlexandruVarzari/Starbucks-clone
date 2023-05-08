@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@400;500;700&display=swap");
+/* general styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+footer {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+.sm {
+  font-size: 19px;
+}
+.md {
+  font-size: 24px;
+}
+.lg {
+  font-size: 40px;
+}
+.hr-style {
+  box-shadow: 0 0 10px grey;
+}
+.flex {
+  display: flex;
+}
+
+.btn-nav {
+  padding: 6px 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.btn-general {
+  padding: 6px 20px;
+  border: 1px solid #1e3932;
+  border-radius: 50px;
+}
+
+.margin-module {
+  margin: 30px;
+}
+.article {
+  width: 50%;
+  line-height: 50px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.module {
+  flex-wrap: wrap;
+}
+.menu-icon {
+  display: none;
+}
+.reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.footer {
+  font-family: "Foldit", cursive;
+}
+/* colors */
+.grey {
+  background: #d4e9e2;
+}
+.green {
+  background: #a0c292;
+}
+.pink {
+  background: #f6bfd9;
+}
+.orange {
+  background: #ffc51a;
+}
+.soft-orange {
+  background: #fff4d4;
+}
+.dark-green {
+  background: #1e3932;
+}
+.black-background {
+  background: #000;
+}
+.black-color {
+  color: #000;
+}
+.white-color {
+  color: #fff;
+}
+.green-color-module {
+  color: #1e3932;
+}
+.white-border {
+  border: 1px solid #fff;
+  color: #fff;
+}
+/* hover effect */
+
+.hover-effect:hover {
+  color: #75bba7;
+}
+.hover-btn:hover {
+  background-color: rgb(240, 240, 240, 0.6);
+}
+.hover-btn-black:hover {
+  background-color: rgb(90, 90, 90);
+}
+
+/* main css */
+.nav-bar {
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px grey;
+  padding: 20px;
+}
+
+.nav-bar-item {
+  align-items: center;
+}
+.nav-bar-item li {
+  padding: 0 20px;
+}
+.nav-bar-item-logo {
+  font-weight: 700 !important;
+}
+.footer-nav {
+  line-height: 50px;
+}
+.footer-nav-item {
+  width: 20%;
+}
+.footer-ul {
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sm {
+    font-size: 14px;
+  }
+  .md {
+    font-size: 18px;
+  }
+  .lg {
+    font-size: 25px;
+  }
+  .nav-bar-item li {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .article {
+    width: 100%;
+  }
+  .footer-nav,
+  .footer-ul {
+    display: block;
+  }
+  .footer-ul {
+    line-height: 50px;
+  }
+  .footer-nav-item li {
+    display: none;
+  }
+}
